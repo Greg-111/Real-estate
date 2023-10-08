@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  padding: 10px;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+p {
+  max-width: 800px; /* Use 'max-width' instead of 'width' for responsiveness */
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between; /* Distribute items with space between them */
+  align-items: center;
+  background-color: red;
+}
+
+#details div {
+  margin: 10px auto; 
+}
